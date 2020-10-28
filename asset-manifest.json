@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/artyty.github.io/static/css/main.f402a3d2.chunk.css",
+    "main.js": "/artyty.github.io/static/js/main.3a7eaa78.chunk.js",
+    "main.js.map": "/artyty.github.io/static/js/main.3a7eaa78.chunk.js.map",
+    "runtime-main.js": "/artyty.github.io/static/js/runtime-main.6f3ce310.js",
+    "runtime-main.js.map": "/artyty.github.io/static/js/runtime-main.6f3ce310.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/artyty.github.io/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.6ed69b5d.chunk.js": "/artyty.github.io/static/js/2.6ed69b5d.chunk.js",
+    "static/js/2.6ed69b5d.chunk.js.map": "/artyty.github.io/static/js/2.6ed69b5d.chunk.js.map",
+    "index.html": "/artyty.github.io/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/artyty.github.io/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.f402a3d2.chunk.css.map": "/artyty.github.io/static/css/main.f402a3d2.chunk.css.map",
+    "static/js/2.6ed69b5d.chunk.js.LICENSE.txt": "/artyty.github.io/static/js/2.6ed69b5d.chunk.js.LICENSE.txt",
+    "static/media/ANDALEMO.a8b962f3.TTF": "/artyty.github.io/static/media/ANDALEMO.a8b962f3.TTF",
+    "static/media/Thomas.5670b50f.jpg": "/artyty.github.io/static/media/Thomas.5670b50f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f3ce310.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.6ed69b5d.chunk.js",
+    "static/css/main.f402a3d2.chunk.css",
+    "static/js/main.3a7eaa78.chunk.js"
+  ]
+}
