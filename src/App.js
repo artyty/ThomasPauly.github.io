@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Thomas from './Thomas.jpg';
+import $ from 'jquery';
+
+
+
 //navbar navbar-default navbar-fixed-top navbar-inverse font-header
 function App() {
   return (
@@ -12,7 +16,7 @@ function App() {
           <nav class="navbar fixed-top navbar-expand-lg navbar-dark  bg-dark ">
           <div class="d-flex flex-grow-1">
            <span class="w-100 d-lg-none d-block"></span>
-            <a class="navbar-brand po-AndaleMono Green" href="#pos-accueil" >tpauly@business_intelligence ~ $</a>
+            <a class="navbar-brand po-AndaleMono Green" href="#pos-accueil" >thomaspauly@business_intelligence ~ $</a>
             <div class="w-100 text-right">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,204 +42,113 @@ function App() {
           </nav>
         </header> 
       </div>
-      
-      
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      
-<section class="section pb-3 text-center">
-
-  
-  <h1 class="section-heading h1 pt-4">Testimonials</h1>
-  
-  <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
-    numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur
-    accusamus veniam.</p>
-
-  <div class="row">
-
-   
-    <div class="col-lg-4 col-md-12 mb-4">
-
-     
-      <div class="card testimonial-card">
-
-       
-        <div class="card-up lighten-2 ">
+      <body>
+        <div class="demo">
+          <div class="container ">
+            <div class="row center-div">
+              <div class="col-md-offset-2  col-md-8 center-div">
+                <div id="testimonial-slider" class="owl-carousel center-div ">
+                  <div class="testimonial">
+                    <div class="pic">
+                      <img src={Thomas} alt=""/>
+                    </div>
+                    <p class="description">
+                      " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi eligendi facilis itaque minus non odio, quaerat ullam unde voluptatum? "
+                    </p>
+                    <h3 class="testimonial-title">williamson</h3>
+                    <span class="post">Web Developer</span>
+                  </div>
+                  <br/>
+                <br/>
+                <br/>
+                <br/>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-       
-        <div class="avatar mx-auto white"><img src={Thomas}
-            alt="avatar mx-auto white" class="rounded-circle img-fluid"/>
-        </div>
-
-        <div class="card-body">
-         
-          <h4 class="card-title mt-1">John Doe</h4>
-          <hr/>
-         
-          <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
-            adipisci.</p>
-        </div>
-
-      </div>
-     
-
-    </div>
-    
-
-   
-    <div class="col-lg-4 col-md-12 mb-4">
-
-     
-      <div class="card testimonial-card">
-
-     
-        <div class="card-up lighten-2" style={{ backgroundColor: "green" }}>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            
-        </div>
-
-       
-        <div class="avatar mx-auto white"><img src={Thomas}
-            alt="avatar mx-auto white" class="rounded-circle img-fluid"/>
-        </div>
-
-        <div class="card-body">
         
-          <h4 class="card-title mt-1">Anna Aston</h4>
-          <hr/>
-         
-          <p><i class="fas fa-quote-left"></i> Neque cupiditate assumenda in maiores repudiandae mollitia
-            architecto.</p>
+
+
+    
+    
+
+          
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p>coucou</p> <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/><br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div id="pos-accueil">
+            <p>acceuil</p>
         </div>
-
-      </div>
-   
-
-    </div>
-  
-
-    
-    <div class="col-lg-4 col-md-12 mb-4">
-
-    
-      <div class="card testimonial-card">
-
-     
-        <div class="card-up deep-purple lighten-2"a></div>
-
-    
-        <div class="avatar mx-auto white"><img src={Thomas}
-            alt="avatar mx-auto white" class="rounded-circle img-fluid"/>
-        </div>
-
-        <div class="card-body">
-         
-          <h4 class="card-title mt-1">Maria Kate</h4>
-          <hr/>
-        
-          <p><i class="fas fa-quote-left"></i> Delectus impedit saepe officiis ab aliquam repellat, rem totam
-            unde ducimus.</p>
-        </div>
-
-      </div>
-     
-
-    </div>
-    
-
-  </div>
-
-</section>
-
-        
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/><br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/><br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <div id="pos-accueil">
-          <p>acceuil</p>
-      </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <p>caca</p>
-      <br/>
-      <br/>
-      <p><button> test</button></p>
-      <br/>
-      <br/>
-      <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p>caca</p>
+        <br/>
+        <br/>
+        <p><button> test</button></p>
+        <br/>
+        <br/>
+        <br/>
+      </body>
     </div>
   );
 }
