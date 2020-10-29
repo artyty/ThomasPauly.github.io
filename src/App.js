@@ -55,7 +55,7 @@ function App() {
                     <p class="description">
                       " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi eligendi facilis itaque minus non odio, quaerat ullam unde voluptatum? "
                     </p>
-                    <h3 class="testimonial-title">williamson</h3>
+                    <h3 class="testimonial-title">Thomas Pauly</h3>
                     <span class="post">Web Developer</span>
                   </div>
                   <br/>
