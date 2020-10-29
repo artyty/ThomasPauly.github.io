@@ -24,16 +24,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }*/
-
+.navbar-color {
+  background-color: #222222;
+}
 
 body {
-  background-color:#b1b1b1 ;
-  padding-top: 30px;
+  background-color:#6d6d6d ;
+  padding-top: 80px;
   
 }
 @media (max-width: 979px) {
   body {
-    padding-top: 30px;
+    padding-top: 80px;
   }
 }
 
@@ -53,12 +55,12 @@ body {
 
 /* police et couleur menu*/
 .po-AndaleMono{ 
-	font-family: Andale Mono,AndaleMono,monospace; 
+  font-family: Andale Mono,AndaleMono,monospace; 
 }
-a.Green:link {color:#339933;}              /* Lien non visité */
-a.Green:visited {color:#339933;}          /* Lien visité */
-a.Green:hover {color:#339933;}            /* Lien survolé*/
-a.Green:active {color:#339933;}           /* Lien sélectionné */
+a.Green:link {color: #02f002;}              /* Lien non visité */
+a.Green:visited {color:#02f002;}          /* Lien visité */
+a.Green:hover {color:#02f002;}            /* Lien survolé*/
+a.Green:active {color:#02f002;}           /* Lien sélectionné */
 
 /* .App-background {
   background-color: 339933;
@@ -70,10 +72,10 @@ a.Green:active {color:#339933;}           /* Lien sélectionné */
 /* Carré présentation */
 
  
-.demo{
+/*.demo{
     background: -webkit-linear-gradient(to left, #2e2e2e, #414140, #222222);
     background:  linear-gradient(to left, #2e2e2e, #414140, #222222);
-}
+}*/
 .testimonial{
     text-align: center;
     margin: 50px 10px 0;
@@ -81,12 +83,12 @@ a.Green:active {color:#339933;}           /* Lien sélectionné */
     background: #fff;
 }
 .testimonial .pic{
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid rgba(255,255,255,0.3);
     display: inline-block;
-    margin-top: -50px;
+    margin-top: -130px;
     overflow: hidden;
     box-shadow:0 2px 6px rgba(0, 0, 0, 0.15);
 }

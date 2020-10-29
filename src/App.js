@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Thomas from './Thomas.jpg';
+import Thomas from './img/Thomas.jpg';
+import Linkedin from './img/linkedin.ico';
+import Mail from './img/mail.ico';
 import $ from 'jquery';
-
 
 
 //navbar navbar-default navbar-fixed-top navbar-inverse font-header
@@ -13,10 +14,10 @@ function App() {
     <div className="App">
       <div>
         <header>
-          <nav class="navbar fixed-top navbar-expand-lg navbar-dark  bg-dark ">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-color ">
           <div class="d-flex flex-grow-1">
            <span class="w-100 d-lg-none d-block"></span>
-            <a class="navbar-brand po-AndaleMono Green" href="#pos-accueil" >thomaspauly@business_intelligence ~ $</a>
+            <a class="navbar-brand po-AndaleMono Green" href="#pos-accueil" >tpauly ~ $</a>
             <div class="w-100 text-right">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,7 @@ function App() {
                   <a class="nav-link" href="#pos_comp">~/Competences</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link " href="#_langue">~/Langues</a>
+                  <a class="nav-link " href="#_langue">~/Loisirs</a>
                 </li>
               </ul>
             </div>
@@ -56,24 +57,16 @@ function App() {
                       " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi eligendi facilis itaque minus non odio, quaerat ullam unde voluptatum? "
                     </p>
                     <h3 class="testimonial-title">Thomas Pauly</h3>
-                    <span class="post">Web Developer</span>
+                    <span class="post">Consultant BI junior</span>
+                    <a href="https://www.linkedin.com/in/thomas-pauly-/" target="_blank" title="Linkedin"> <img src={Linkedin} alt=""/></a>
+                    <a href="mailto:thomas.pauly@wanadoo.fr" target="_blank" title="Mail"> <img src={Mail} alt=""/></a>
                   </div>
-                  <br/>
-                <br/>
-                <br/>
-                <br/>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
-
-
-    
-    
-
-          
+   
         <br/>
         <br/>
         <br/>
