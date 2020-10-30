@@ -24,14 +24,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }*/
+
+
 .navbar-color {
   background-color: #222222;
 }
 
 body {
   background-color:#6d6d6d ;
-  padding-top: 80px;
-  
+  padding-top: 80px;  
 }
 @media (max-width: 979px) {
   body {
@@ -39,6 +40,12 @@ body {
   }
 }
 
+footer{
+    padding: 15px 0;
+    background: #333;
+    margin-top: 20px;
+    font-size: 15px;
+}
 
 /* .App-link {
   color: #61dafb;
@@ -103,6 +110,10 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
     line-height: 30px;
     margin: 10px 0 20px;
 }
+.testimonial-border{
+  border: solid 5px #999999;
+  border-radius: 13px;
+}
 .testimonial .testimonial-title{
     font-size: 14px;
     font-weight: bold;
@@ -160,4 +171,13 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
 
 .center-div{
   margin: 0 auto;
+}
+
+.img-pxl {
+  width: 30px;
+  height: 30px;
+}
+.img-pxl2 {
+  width: 35px;
+  height: 35px;
 }

@@ -5,7 +5,6 @@ import './App.css';
 import Thomas from './img/Thomas.jpg';
 import Linkedin from './img/linkedin.ico';
 import Mail from './img/mail.ico';
-import $ from 'jquery';
 
 
 //navbar navbar-default navbar-fixed-top navbar-inverse font-header
@@ -35,7 +34,7 @@ function App() {
                   <a class="nav-link" href="#pos_comp">~/Competences</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link " href="#_langue">~/Loisirs</a>
+                  <a class="nav-link " href="#_langue">~/Infos</a>
                 </li>
               </ul>
             </div>
@@ -45,21 +44,23 @@ function App() {
       </div>
       <body>
         <div class="demo">
-          <div class="container ">
+          <div class="container">
             <div class="row center-div">
               <div class="col-md-offset-2  col-md-8 center-div">
-                <div id="testimonial-slider" class="owl-carousel center-div ">
-                  <div class="testimonial">
+                <div id="testimonial-slider" class="owl-carousel center-div">
+                  <div class="testimonial testimonial-border">
                     <div class="pic">
                       <img src={Thomas} alt=""/>
                     </div>
                     <p class="description">
-                      " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi eligendi facilis itaque minus non odio, quaerat ullam unde voluptatum? "
+                      " blablabla "
                     </p>
                     <h3 class="testimonial-title">Thomas Pauly</h3>
-                    <span class="post">Consultant BI junior</span>
-                    <a href="https://www.linkedin.com/in/thomas-pauly-/" target="_blank" title="Linkedin"> <img src={Linkedin} alt=""/></a>
-                    <a href="mailto:thomas.pauly@wanadoo.fr" target="_blank" title="Mail"> <img src={Mail} alt=""/></a>
+                    <span class="post"> Consultant Business Intelligence </span>
+                    <div class="col-xs-12 user-social text-center">
+                      <a href="https://www.linkedin.com/in/thomas-pauly-/" target="_blank" title="Linkedin"> <img src={Linkedin} class ="img-pxl" alt=""/></a>
+                      <a href="mailto:thomas.pauly@wanadoo.fr" target="_blank" title="Mail"> <img src={Mail} class ="img-pxl2" alt=""/></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -142,6 +143,9 @@ function App() {
         <br/>
         <br/>
       </body>
+      <footer>
+        <p>Copyright © Thomas Pauly</p>
+        </footer>
     </div>
   );
 }
