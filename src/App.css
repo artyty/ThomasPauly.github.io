@@ -30,6 +30,7 @@
   background-color: #222222;
 }
 
+/* Body */
 body {
   background-color:#6d6d6d ;
   padding-top: 80px;  
@@ -40,6 +41,7 @@ body {
   }
 }
 
+/* Footer */
 footer{
     padding: 15px 0;
     background: #333;
@@ -47,9 +49,6 @@ footer{
     font-size: 15px;
 }
 
-/* .App-link {
-  color: #61dafb;
-} */
 
 @keyframes App-logo-spin {
   from {
@@ -60,7 +59,7 @@ footer{
   }
 }
 
-/* police et couleur menu*/
+/* Heder : police et couleur */
 .po-AndaleMono{ 
   font-family: Andale Mono,AndaleMono,monospace; 
 }
@@ -69,20 +68,19 @@ a.Green:visited {color:#02f002;}          /* Lien visité */
 a.Green:hover {color:#02f002;}            /* Lien survolé*/
 a.Green:active {color:#02f002;}           /* Lien sélectionné */
 
-/* .App-background {
-  background-color: 339933;
-} */
+/* Décallage Div*/ 
+.div-margin{
+  margin : 300px ;
+}
+/* H2 mise à jour */
+.pol-SegoeUI{
+  font-family:  Segoe UI;
+}
 
 
 
 
 /* Carré présentation */
-
- 
-/*.demo{
-    background: -webkit-linear-gradient(to left, #2e2e2e, #414140, #222222);
-    background:  linear-gradient(to left, #2e2e2e, #414140, #222222);
-}*/
 .testimonial{
     text-align: center;
     margin: 50px 10px 0;
@@ -180,4 +178,29 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
 .img-pxl2 {
   width: 35px;
   height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.featurette-divider {
+  margin: 50px 350px; /* <hr> between each */
+}
+ .featurette {
+  overflow: hidden; /* Clear floats */
+  margin: 0px 300px ; /* <hr> between each */
+}
+ .featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
 }

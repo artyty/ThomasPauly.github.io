@@ -6,11 +6,15 @@ import Thomas from './img/Thomas.jpg';
 import Linkedin from './img/linkedin.ico';
 import Mail from './img/mail.ico';
 
+var d = new Date();
+var day = d.getMonth()+1;
+var year = d.getUTCFullYear();
+
 
 //navbar navbar-default navbar-fixed-top navbar-inverse font-header
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="pos-accueil">
       <div>
         <header>
           <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-color ">
@@ -67,81 +71,112 @@ function App() {
             </div>
           </div>
         </div>
-   
         <br/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <p>coucou</p> <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/><br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <div id="pos-accueil">
-            <p>acceuil</p>
+        <hr class="featurette-divider" id="pos-experience"/>
+        <div class="row featurette" >
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Expériences</h2>
+            <h3> Développeur Business Intelligence</h3>
+            <h4> DTA Ingénierie - Business et Décision </h4>
+            <h5> 06/2018 - 11/2018, Toulouse - France</h5>
+            <ul>
+              <li><i>Tâches</i> : Correction et traitement de données, Reporting pour l'aide à la décision et Gérer les droits d'accès des applications</li>
+              <li> <i>Clients</i> : Orange et Toulouse Métropole Habitat </li>
+              <li> <i>Logiciels</i> : Talend, QlikView, phpMyAdmin, Oracle </li>
+            </ul>
+          </div>
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <p>caca</p>
-        <br/>
-        <br/>
-        <p><button> test</button></p>
-        <br/>
-        <br/>
-        <br/>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h3>Stagiaire - Développeur VBA</h3>
+            <h4> Stélia Aerospace Composites </h4>
+            <h5> 03/2017 - 07/2017, Bordeaux- France</h5>
+            <ul>
+              <li>Améliorer et automatiser l'approvisionnement, en réduisant les stocks et les délais de livraison</li>
+              <li> Automatiser plusieurs tâches effectuées (gains de temps, moins de dépenses, moins d'erreurs d'inattention) </li>
+              <li> <i>Logiciels</i> : Excel, Word </li>
+              <li> <i>Langage </i>Visual Basic for Applications</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h3> Projet Universitaire Informatique et Statistique</h3>
+            <h4> Section Paloise </h4>
+            <h5> 09/2015 - 11/2016, Pau - France</h5>
+            <ul>
+              <li> Création d'une application analysant les données récoltées lors des matchs et des entrainements des joueurs de rugby de Pau</li>
+              <li> Analyse de ces données pour anticiper les possibles douleurs et blessures </li>
+              <li> <i>Logiciels</i> : Excel, Statistica, R Studio </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="featurette-divider" id="pos_formation"/>
+        <div class="row featurette" >
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Formations</h2>
+            <h3> Auto Formation</h3>
+            <h4> Udemy, OpenClassroom </h4>
+            <h5> 03/2020 - {day}/{year}</h5>
+            <ul>
+              <li><i>Domaines:</i> : Java, GitHub, Python, React, Espagnol </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row featurette" >
+          <div class="col-md-7">
+            <h3> Formation intensive en Espagnol</h3>
+            <h4> Chambre de Commerce et d'Industrie </h4>
+            <h5> 10/2019 - 11/2019</h5>
+            <ul>
+              <li>formation intensive en Espagnol d'une durée de 1 mois  </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row featurette" >
+          <div class="col-md-7">
+            <h3> Formation professionnalisante en Business Intelligence</h3>
+            <h4> DTA Ingénierie </h4>
+            <h5> 02/2018 - 06/2018, Nantes - France</h5>
+            <ul>
+              <li> <a href="https://www.dta-ingenierie.fr/formation/parcours-de-formation-developpeur-decisionnel/" target="_blank">Voir le programme </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row featurette" >
+          <div class="col-md-7">
+            <h3> Licence Professionnelle - Statistique et Informatique Décisionnelle pour le Management de la Qualité</h3>
+            <h4> Université de Pau et des Pays de l'Adour </h4>
+            <h5> 09/2016 - 02/2017, Pau - France</h5>
+            <ul>
+              <li> <a href="https://iutpa.univ-pau.fr/fr/formations/offre-de-formation/licence-professionnelle-13/sciences-technologies-sante-STS/licence-pro-metiers-du-decisionnel-et-de-la-statistique-59_1.html#programContentcfccffcf-ae65-4c0c-a9a3-63fabb161fc2-1" target="_blank">Voir le programme </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row featurette" >
+          <div class="col-md-7">
+            <h3> DUT - Statistique et Informatique Décisionnelle</h3>
+            <h4> Université de Pau et des Pays de l'Adour </h4>
+            <h5> 09/2013 - 05/2016, Pau - France</h5>
+            <ul>
+              <li> <a href="https://formation.univ-pau.fr/fr/catalogue/sciences-technologies-sante-STS/diplome-universitaire-de-technologie-dut-11/dut-statistiques-et-informatique-decisionnelle-IGXRLBJ9.html" target="_blank">Voir le programme </a> </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="featurette-divider" id="pos_competence"/>
+        <div class="row featurette" >
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Compétences</h2>
+            <p>Langages</p>
+            <ul>
+            <li  class="d-inline" > a</li>
+            <li  class="d-inline" > b</li>
+            </ul>
+            
+          </div>
+        </div>
+       
       </body>
       <footer>
         <p>Copyright © Thomas Pauly</p>
