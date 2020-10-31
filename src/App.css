@@ -25,7 +25,7 @@
   color: white;
 }*/
 
-
+/* Navbar*/
 .navbar-color {
   background-color: #222222;
 }
@@ -41,12 +41,32 @@ body {
   }
 }
 
+/* images*/ 
+.img-pxl {
+  width: 30px;
+  height: 30px;
+}
+.img-pxl2 {
+  width: 35px;
+  height: 35px;
+}
+.img-up{
+  width: 40px;
+  height: 40px;
+}
+.button-style{
+  background-color: blue;
+}
+
+
+
+
 /* Footer */
 footer{
-    padding: 15px 0;
-    background: #333;
-    margin-top: 20px;
-    font-size: 15px;
+  background: #333;
+  color : black;
+  font-size: 15px;
+  height: 45px
 }
 
 
@@ -171,14 +191,6 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
   margin: 0 auto;
 }
 
-.img-pxl {
-  width: 30px;
-  height: 30px;
-}
-.img-pxl2 {
-  width: 35px;
-  height: 35px;
-}
 
 
 
@@ -199,4 +211,3 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
 
 
 
-/* back to top*/

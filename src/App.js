@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button';
+import { Container,Button,lightColors, darkColors, Link } from 'react-floating-action-button';/**/
+//import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+/*images*/
 import Thomas from './img/Thomas.jpg';
 import Linkedin from './img/linkedin.ico';
 import Mail from './img/mail.ico';
+import Up from './img/up.png';
 
 
 var d = new Date();
 var day = d.getMonth()+1;
 var year = d.getUTCFullYear();
 
+
 //navbar navbar-default navbar-fixed-top navbar-inverse font-header
 function App() {
   return (
-    <div className="App" id="pos-accueil">
+    <div className="App">
       <div>
         <header>
           <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-color ">
           <div class="d-flex flex-grow-1">
            <span class="w-100 d-lg-none d-block"></span>
-            <a class="navbar-brand po-AndaleMono Green" href="#pos-accueil" >tpauly ~ $</a>
+            <a class="navbar-brand po-AndaleMono Green" href="#" >tpauly ~ $</a>
             <div class="w-100 text-right">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -166,20 +170,40 @@ function App() {
         </div>
         <hr class="featurette-divider" id="pos_competence"/>
         <div class="row featurette" >
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Compétences</h2>
-            <p>Langages</p>
+          <div>
+            <h2 class="featurette-heading">Technologie</h2>
+            <p> Compétences</p>
+            <ul class="list-inline">
+              <li  class="list-inline-item" > Talend</li>
+              <li  class="list-inline-item" > QlikView</li>
+              <li  class="list-inline-item" > R</li>
+              <li  class="list-inline-item" > Joomla </li>
+              <li  class="list-inline-item" > Sphinx </li>
+            </ul>
             <ul>
-              <li  class="d-inline" > a</li>
-              <li  class="d-inline" > b</li>
+              <li  class="d-inline" > HTMl</li>
+              <li  class="d-inline" > Visuak Basic for Applications</li>
+              <li  class="d-inline" > Méthodes Agiles</li>
+              <li  class="d-inline" > Java</li>
+              <li  class="d-inline" > Git</li>
+            </ul>
+            <p> Langues</p>
+            <ul>
+              <li> Français ★★★★★</li>
+              <li> Anglais ★★★✩✩ </li>
+              <li> Espagnol ★★✩✩✩</li>
             </ul>
           </div>
         </div>
-        
+        <Container class="a">
+          <Button styles={{backgroundColor: lightColors.teal, color: lightColors.white}}>
+            <a href="#"><img src={Up} class="img-up"/></a>
+          </Button>
+        </Container>
       </body>
       <footer>
-        <button class="float-right"><a href="#">Back to top</a></button>
-        <p>Copyright © Thomas Pauly</p>
+        {/*<p class="float-right"><a href="#"><img src={Up} class="img-up"/></a></p>*/}
+        <p>Copyright © 2020 Thomas Pauly</p>
         </footer>
     </div>
   );
