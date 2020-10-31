@@ -182,15 +182,7 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
 
 
 
-
-
-
-
-
-
-
-
-
+/* Barre de coupure entre les menus*/
 .featurette-divider {
   margin: 50px 350px; /* <hr> between each */
 }
@@ -204,3 +196,7 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
   line-height: 1;
   letter-spacing: -1px;
 }
+
+
+
+/* back to top*/

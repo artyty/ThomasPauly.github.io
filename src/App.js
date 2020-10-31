@@ -6,10 +6,10 @@ import Thomas from './img/Thomas.jpg';
 import Linkedin from './img/linkedin.ico';
 import Mail from './img/mail.ico';
 
+
 var d = new Date();
 var day = d.getMonth()+1;
 var year = d.getUTCFullYear();
-
 
 //navbar navbar-default navbar-fixed-top navbar-inverse font-header
 function App() {
@@ -170,15 +170,15 @@ function App() {
             <h2 class="featurette-heading">Compétences</h2>
             <p>Langages</p>
             <ul>
-            <li  class="d-inline" > a</li>
-            <li  class="d-inline" > b</li>
+              <li  class="d-inline" > a</li>
+              <li  class="d-inline" > b</li>
             </ul>
-            
           </div>
         </div>
-       
+        
       </body>
       <footer>
+        <button class="float-right"><a href="#">Back to top</a></button>
         <p>Copyright © Thomas Pauly</p>
         </footer>
     </div>
