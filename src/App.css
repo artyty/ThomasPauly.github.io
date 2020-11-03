@@ -53,6 +53,8 @@ body {
 .img-up{
   width: 40px;
   height: 40px;
+  border-radius:100px;
+  overflow: hidden;
 }
 .button-style{
   background-color: blue;
@@ -211,3 +213,19 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
 
 
 
+/* Return top */
+.hidden{
+  visibility: hidden;
+}
+.nothidden{
+  bottom:20px;
+}
+.div-top{
+  border-radius:50%;
+  width:60px;
+  height:60px;
+  background: #80cbc4 ;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}

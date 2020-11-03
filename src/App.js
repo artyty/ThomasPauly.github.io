@@ -15,6 +15,13 @@ var day = d.getMonth()+1;
 var year = d.getUTCFullYear();
 
 
+ document.addEventListener('DOMContentLoaded', function() {
+  window.onscroll = function(ev) {
+    document.getElementById("return-top").className = (window.pageYOffset > 100) ? "nothidden" : "hidden";
+  };
+});
+
+
 //navbar navbar-default navbar-fixed-top navbar-inverse font-header
 function App() {
   return (
@@ -39,7 +46,7 @@ function App() {
                   <a class="nav-link" href="#pos_formation">~/Formations</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#pos_comp">~/Competences</a>
+                  <a class="nav-link" href="#pos_competence">~/Competences</a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link " href="#_langue">~/Infos</a>
@@ -171,38 +178,62 @@ function App() {
         <hr class="featurette-divider" id="pos_competence"/>
         <div class="row featurette" >
           <div>
-            <h2 class="featurette-heading">Technologie</h2>
-            <p> Compétences</p>
-            <ul class="list-inline">
-              <li  class="list-inline-item" > Talend</li>
-              <li  class="list-inline-item" > QlikView</li>
-              <li  class="list-inline-item" > R</li>
-              <li  class="list-inline-item" > Joomla </li>
-              <li  class="list-inline-item" > Sphinx </li>
-            </ul>
-            <ul>
-              <li  class="d-inline" > HTMl</li>
-              <li  class="d-inline" > Visuak Basic for Applications</li>
-              <li  class="d-inline" > Méthodes Agiles</li>
-              <li  class="d-inline" > Java</li>
-              <li  class="d-inline" > Git</li>
-            </ul>
-            <p> Langues</p>
-            <ul>
-              <li> Français ★★★★★</li>
-              <li> Anglais ★★★✩✩ </li>
-              <li> Espagnol ★★✩✩✩</li>
-            </ul>
+            <h2 class="featurette-heading">Technologies</h2>
+            <h5> Compétences</h5>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>Talend</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>QlikView</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>Joomla</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>Sphinx</p>  </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>HTMl</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>Visuak Basic for Applications</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>Méthodes Agiles</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>React</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>Github</p>
+                </div>
+              </div>
+            </div>
+            <h5> Langues</h5>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p> Français ★★★★★</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>  Anglais ★★★✩✩</p>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                  <p>  Espagnol ★★✩✩✩</p>
+                </div>
+              </div>
+             </div>
           </div>
-        </div>
-        <Container class="a">
-          <Button styles={{backgroundColor: lightColors.teal, color: lightColors.white}}>
-            <a href="#"><img src={Up} class="img-up"/></a>
-          </Button>
+        </div> 
+      
+        <Container>
+          <div> 
+           <a  id="return-top" class="hidden"  href="#"> <div class="div-top"> <img src={Up} class="img-up "/> </div></a>
+          </div>
         </Container>
       </body>
       <footer>
-        {/*<p class="float-right"><a href="#"><img src={Up} class="img-up"/></a></p>*/}
         <p>Copyright © 2020 Thomas Pauly</p>
         </footer>
     </div>
