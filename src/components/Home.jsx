@@ -3,7 +3,6 @@ import React from "react";
 import Thomas from '../img/Thomas.jpg';
 import Linkedin from '../img/linkedin.ico';
 import Mail from '../img/mail.ico';
-import Smiley from '../img/Smiley.gif';
 // Import Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import CSS
@@ -59,7 +58,7 @@ const Home = () => (
                   <img src={Thomas} alt=""/>
                 </div>
                 <p class="description">
-                  Bienvenue sur mon site !  <img src={Smiley} /> <br/>
+                  Bienvenue sur mon site !  <img src={Mail} /> <br/>
                   Vous pouvez utiliser le Chatbot pour rechercher des informations ou alors naviguer en cliquant sur les liens.
                 </p>
                 <h3 class="testimonial-title">Thomas Pauly</h3>
