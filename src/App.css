@@ -3,13 +3,9 @@
   text-align: center;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}*/
 @viewport {
   width: device-width; /* largeur du viewport */
-  zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+  zoom: 1; 
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,17 +13,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-/*.App-header {
-  background-color: #527dd3;
-  min-height: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}*/
 
 /* Navbar*/
 .navbar-color {
@@ -85,14 +70,7 @@ footer{
   }
 }
 
-/* Heder : police et couleur */
-.po-AndaleMono{ 
-  font-family: Andale Mono,AndaleMono,monospace; 
-}
-a.Green:link {color: #02f002;}              /* Lien non visité */
-a.Green:visited {color:#02f002;}          /* Lien visité */
-a.Green:hover {color:#02f002;}            /* Lien survolé*/
-a.Green:active {color:#02f002;}           /* Lien sélectionné */
+
 
 /* Décallage Div*/ 
 .div-margin{
@@ -103,13 +81,25 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
   font-family:  Segoe UI;
 }
 
+/* Navbar*/
+.navbar-color {
+  background-color: #222222;
+}
 
+/* Heder : police et couleur */
+.po-AndaleMono{ 
+font-family: Andale Mono,AndaleMono,monospace; 
+}
+.Green:link {color: #02f002;}              /* Lien non visité */
+.Green:visited {color:#02f002;}          /* Lien visité */
+.Green:hover {color:#02f002;}            /* Lien survolé*/
+.Green:active {color:#02f002;}           /* Lien sélectionné */
 
 
 /* Carré présentation */
 .testimonial{
     text-align: center;
-    margin: 50px 10px 0;
+    margin: 120px 10px 0;
     padding: 0 10% 1%;
     background: #fff;
 }
@@ -233,3 +223,47 @@ a.Green:active {color:#02f002;}           /* Lien sélectionné */
   display: table-cell;
   vertical-align: middle;
 }
+
+
+
+
+/*css de LienChatBot */
+
+.link-list {
+  padding: 0;
+}
+
+.link-list-item {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.link-list-item-url {
+  text-decoration: none;
+  margin: 6px;
+  display: block;
+  color: #1d1d1d;
+  background-color: #f1f1f1;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4);
+}
+
+
+/*css de OptionChatBot */
+.learning-options-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.learning-option-button {
+  padding: 0.5rem;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid green;
+  margin: 3px;
+  
+}
+
+.learning-option-butto:active{ border: none}
