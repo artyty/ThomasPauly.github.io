@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/artyty.github.io/static/css/main.35f8ae27.chunk.css",
-    "main.js": "/artyty.github.io/static/js/main.3dd5c798.chunk.js",
-    "main.js.map": "/artyty.github.io/static/js/main.3dd5c798.chunk.js.map",
+    "main.js": "/artyty.github.io/static/js/main.e3d32f92.chunk.js",
+    "main.js.map": "/artyty.github.io/static/js/main.e3d32f92.chunk.js.map",
     "runtime-main.js": "/artyty.github.io/static/js/runtime-main.6f3ce310.js",
     "runtime-main.js.map": "/artyty.github.io/static/js/runtime-main.6f3ce310.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/artyty.github.io/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.906ab285.chunk.js": "/artyty.github.io/static/js/2.906ab285.chunk.js",
-    "static/js/2.906ab285.chunk.js.map": "/artyty.github.io/static/js/2.906ab285.chunk.js.map",
+    "static/js/2.28e3ef6c.chunk.js": "/artyty.github.io/static/js/2.28e3ef6c.chunk.js",
+    "static/js/2.28e3ef6c.chunk.js.map": "/artyty.github.io/static/js/2.28e3ef6c.chunk.js.map",
     "index.html": "/artyty.github.io/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/artyty.github.io/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.35f8ae27.chunk.css.map": "/artyty.github.io/static/css/main.35f8ae27.chunk.css.map",
-    "static/js/2.906ab285.chunk.js.LICENSE.txt": "/artyty.github.io/static/js/2.906ab285.chunk.js.LICENSE.txt",
+    "static/js/2.28e3ef6c.chunk.js.LICENSE.txt": "/artyty.github.io/static/js/2.28e3ef6c.chunk.js.LICENSE.txt",
     "static/media/ANDALEMO.a8b962f3.TTF": "/artyty.github.io/static/media/ANDALEMO.a8b962f3.TTF",
     "static/media/Thomas.98fd288e.jpg": "/artyty.github.io/static/media/Thomas.98fd288e.jpg",
     "static/media/linkedin.043802e2.ico": "/artyty.github.io/static/media/linkedin.043802e2.ico",
-    "static/media/mail.dbd26982.ico": "/artyty.github.io/static/media/mail.dbd26982.ico"
+    "static/media/mail.dbd26982.ico": "/artyty.github.io/static/media/mail.dbd26982.ico",
+    "static/media/robotic2.6cef0eb9.png": "/artyty.github.io/static/media/robotic2.6cef0eb9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6f3ce310.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.906ab285.chunk.js",
+    "static/js/2.28e3ef6c.chunk.js",
     "static/css/main.35f8ae27.chunk.css",
-    "static/js/main.3dd5c798.chunk.js"
+    "static/js/main.e3d32f92.chunk.js"
   ]
 }
