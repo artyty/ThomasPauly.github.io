@@ -17,32 +17,104 @@ import Robot from '../img/robotic2.png';
 // all available props
 const theme = {
   botAvatar: <img src="Mail"></img>,
-  background: '#f5f8fb',
-  fontFamily: 'Helvetica Neue',
+  background: '#1d1d1d',
+  fontFamily: 'Segoe UI',
   headerBgColor: '#EF6C00',
   headerFontColor: '#fff',
   headerFontSize: '15px',
   botBubbleColor: '#EF6C00',
   botFontColor: '#fff',
-  userBubbleColor: '#fff',
-  userFontColor: '#4a4a4a',
+  userBubbleColor: '#EF6C00',
+  userFontColor: '#e9e9e9',
 };
 
 const steps = [
   {
+    // Hello
     id: '1',
-    message: 'Bonjour, comment vous appelez-vous?',
+    message: 'Bonjour je suis ThomBot pour vous servir, comment vous appelez-vous?',
     trigger: '2',
   },
   {
+     // Name
     id: '2',
     user: true,
     trigger: '3',
   },
   {
+    // 
     id: '3',
-    message: 'Enchanté {previousValue}!',
-    end: true,
+    message: 'Enchanté {previousValue}! Si tu veux en savoir plus sur moi, tu peux cliquer sur les liens ci-dessous',
+    trigger: '4',
+  },
+  {
+    // Menu principal
+    id: '4',
+    options: [
+      { value: 1, label: 'Qui suis-je?', trigger: '5' },
+      { value: 2, label: 'Expériences', trigger: '6' },
+      { value: 3, label: 'Formations', trigger: '7'},
+      { value: 4, label: 'Compétences', trigger: '8' },
+    ],
+  },
+  {
+    // Menu Me
+    id: '5',
+    component: (
+      <div>Je m'appelle Thomas Pauly, je viens d'un village proche de Lourdes (dans le 65).
+      <br/>J'ai 25 ans et je recherche un emploi en Informatique Décisionnelles </div>
+    ),
+    asMessage: true,
+    trigger: '4',
+  },
+  {
+    // Menu Exp
+    id: '6',
+    component: (
+      <div>J'ai travaillé en Informatique Décisionnelle pour DTA Ingénierie, qui m'ont envoyé en mission chez Businees et Décision durant 6 mois.
+      <br/>J'ai aussi effectués des stages et des projets universitaires où j'ai mis en pratique mes connaissances en programmation VBA, Création de site internet et en Statistiques - Sondages.  </div>
+    ),
+    asMessage: true,
+    trigger: '4',
+  },
+  {
+    // Menu Form
+    id: '7',
+    component: (
+      <div>J'ai un diplôme de Licence Professionnelle en Statistique et Informatique Décisionnelle fait à Pau.
+      <br/> J'ai aussi effectué une formation de 4 mois en Informatique Décisionnelle chez DTA Ingénierie (équivalent à un niveau bac +5). </div>
+    ),
+    asMessage: true,
+    trigger: '4',
+  },
+  {
+    // Menu Comp
+    id: '8',
+    options: [
+      { value: 1, label: 'Langues',trigger: '9'},
+      { value: 2, label: 'Technologie',trigger: '10'},
+      { value: 3, label: 'Retourner aux choix précédent', trigger: '4' },
+    ],
+  },
+  {
+    // Menu Exp
+    id: '9',
+    component: ( 
+      <div> Je suis natif français et je comprends et parle un peu Anglais et Espagnol ! </div>
+    ),
+    asMessage: true,
+    trigger: '8',
+  },
+  {
+    // Menu Exp
+    id: '10',
+    component: ( 
+      <div>Je maitrise les logiciels suivant : Talend, QlikView, Joomla, Sphinx.
+      <br/>Ansi que  Je connais les languagus de programmation VBA, HTML, CSS, Javascript, Java.
+      <br/> Et je sais me servir de Git </div>
+    ),
+    asMessage: true,
+    trigger: '8',
   },
 ];
 
@@ -61,12 +133,23 @@ const Home = () => (
                 <p class="description">
                   Bienvenue sur mon site !  <img src={Smiley} /> <br/>
                   Vous pouvez utiliser le Chatbot pour rechercher des informations ou alors naviguer en cliquant sur les liens.
-                </p>
+                </p> 
+                <ThemeProvider theme={theme}>
+                  <ChatBot steps={steps} 
+                    width = "100%"
+                    height = "400px"
+                    hideUserAvatar = "true"
+                    headerTitle={"Thombot"} 
+                    botAvatar={Robot} 
+                  />
+                </ThemeProvider>
+                <br/>
                 <h3 class="testimonial-title">Thomas Pauly</h3>
                 <span class="post"> Consultant Business Intelligence </span>
                 <div class="col-xs-12 user-social text-center">
-                  <a href="https://www.linkedin.com/in/thomas-pauly-/" target="_blank" title="Linkedin"> <img src={Linkedin} class ="img-pxl" alt=""/></a>
-                  <a href="mailto:thomas.pauly@wanadoo.fr" target="_blank" title="Mail"> <img src={Mail} class ="img-pxl2" alt=""/></a>
+                  <a href="https://www.linkedin.com/in/thomas-pauly-/" target="_blank" title="Linkedin"><img src={Linkedin} class ="img-pxl" alt=""/></a>
+                  <a> </a>
+                  <a href="mailto:thomas.pauly@wanadoo.fr" target="_blank" title="Mail"><img src={Mail} class ="img-pxl2" alt=""/></a>
                 </div>
               </div>
             </div>
@@ -74,18 +157,7 @@ const Home = () => (
         </div>
       </div>
     </div>
-    <br/>
-    <br/>
-    <br/>
-    <div  class="container"> 
-    <ThemeProvider theme={theme}>
-      <ChatBot steps={steps} 
-        speechSynthesis={{ enable: true, lang: 'fr' }}
-        headerTitle={"Thombot"} 
-        botAvatar={Robot} 
-      />;
-    </ThemeProvider></div>
-  </div>
+    </div>
 );
 
 export default Home;

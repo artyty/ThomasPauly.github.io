@@ -11,10 +11,10 @@ function Competences() {
        <hr class="container" id="pos_competence"/>
       <div class="container">
         <div>
-          <h2 class="featurette-heading">Technologies</h2>
+          <h2 class="featurette-heading">Compétences</h2>
           <br/>
           
-          <h5> Compétences</h5>
+          <h5> Technologies</h5>
           <div class="container">
             <div class="row text-center">
               <div class="col-md-6 col-lg-4 p-3">
@@ -29,7 +29,7 @@ function Competences() {
               <div class="col-md-6 col-lg-4 p-3">
                 <p>Sphinx</p>  </div>
               <div class="col-md-6 col-lg-4 p-3">
-                <p>HTMl</p>
+                <p>HTML</p>
               </div>
               <div class="col-md-6 col-lg-4 p-3">
                 <p>Visuak Basic for Applications</p>

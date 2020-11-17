@@ -22,11 +22,11 @@ function Experiences() {
         </ul>
       </div>
       <div class="container text-left">
-        <h3>Stagiaire - Développeur VBA</h3>
+        <h3> Stagiaire - Développeur VBA</h3>
         <h4> Stélia Aerospace Composites </h4>
         <h5> 03/2017 - 07/2017, Bordeaux- France</h5>
         <ul>
-          <li>Améliorer et automatiser l'approvisionnement, en réduisant les stocks et les délais de livraison</li>
+          <li> Améliorer et automatiser l'approvisionnement, en réduisant les stocks et les délais de livraison</li>
           <li> Automatiser plusieurs tâches effectuées (gains de temps, moins de dépenses, moins d'erreurs d'inattention) </li>
           <li> <i>Logiciels</i> : Excel, Word </li>
           <li> <i>Langage </i>Visual Basic for Applications</li>

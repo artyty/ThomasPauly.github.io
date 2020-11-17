@@ -8,7 +8,7 @@ function Footer() {
     <br/>
     <br/>
     <br/>
-      <footer class="py-2 bg-dark fixed-bottom">
+      <footer class="py-2 fixed-bottom footer-color">
         <div class="container">
           <p class="m-0 text-center text-white">
             Copyright &copy; Thomas Pauly 2020
