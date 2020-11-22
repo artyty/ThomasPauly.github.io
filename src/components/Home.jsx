@@ -19,12 +19,12 @@ const theme = {
   botAvatar: <img src="Mail"></img>,
   background: '#1d1d1d',
   fontFamily: 'Segoe UI',
-  headerBgColor: '#EF6C00',
+  headerBgColor: '#c69606',
   headerFontColor: '#fff',
   headerFontSize: '15px',
-  botBubbleColor: '#EF6C00',
+  botBubbleColor: '#c69606',
   botFontColor: '#fff',
-  userBubbleColor: '#EF6C00',
+  userBubbleColor: '#c69606',
   userFontColor: '#e9e9e9',
 };
 
@@ -32,7 +32,7 @@ const steps = [
   {
     // Hello
     id: '1',
-    message: 'Bonjour je suis ThomBot pour vous servir, comment vous appelez-vous?',
+    message: 'Salut, moi c\'est, comment t\'appelles-tu?',
     trigger: '2',
   },
   {
@@ -51,10 +51,10 @@ const steps = [
     // Menu principal
     id: '4',
     options: [
-      { value: 1, label: 'Qui suis-je?', trigger: '5' },
-      { value: 2, label: 'Expériences', trigger: '6' },
-      { value: 3, label: 'Formations', trigger: '7'},
-      { value: 4, label: 'Compétences', trigger: '8' },
+      { value: 1, label: 'A propos de moi', trigger: '5' },
+      { value: 2, label: 'Mes Expériences', trigger: '6' },
+      { value: 3, label: 'Mes Formations', trigger: '7'},
+      { value: 4, label: 'Mes Compétences', trigger: '8' },
     ],
   },
   {

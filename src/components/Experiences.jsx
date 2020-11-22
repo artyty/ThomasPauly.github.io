@@ -8,9 +8,8 @@ import '../App.css';
 function Experiences() {
   return (
     <div className="competences">
-      <hr class="container"/>
       <div class="container text-left" >
-        <h2 class="featurette-heading">Expériences</h2>
+        <h2 class="title featurette-heading">Expériences</h2>
         <br/>
         <h3> Développeur Business Intelligence</h3>
         <h4> DTA Ingénierie - Business et Décision </h4>
@@ -21,6 +20,7 @@ function Experiences() {
           <li> <i>Logiciels</i> : Talend, QlikView, phpMyAdmin, Oracle </li>
         </ul>
       </div>
+      <hr class="container"/>
       <div class="container text-left">
         <h3> Stagiaire - Développeur VBA</h3>
         <h4> Stélia Aerospace Composites </h4>
@@ -31,7 +31,8 @@ function Experiences() {
           <li> <i>Logiciels</i> : Excel, Word </li>
           <li> <i>Langage </i>Visual Basic for Applications</li>
         </ul>
-      </div>
+      </div>      
+      <hr class="container"/>
       <div class="container text-left">
         <h3> Projet Universitaire Informatique et Statistique</h3>
         <h4> Section Paloise </h4>
