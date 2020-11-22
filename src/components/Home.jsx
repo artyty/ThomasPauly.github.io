@@ -32,7 +32,7 @@ const steps = [
   {
     // Hello
     id: '1',
-    message: 'Salut, moi c\'est, comment t\'appelles-tu?',
+    message: 'Salut, moi c\'est Thombot, comment t\'appelles-tu?',
     trigger: '2',
   },
   {
