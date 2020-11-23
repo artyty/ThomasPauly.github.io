@@ -29,7 +29,7 @@ function Formation() {
               <img src={Udemy} class ="img-formation" />
             </div>
             <div class="col-sm">
-              <h3 class="po-AndaleMono"> Auto Formation</h3>
+              <h3> Auto Formation</h3>
               <h4> Udemy,OpenClassroom </h4>
               <h5> 03/2020 - {day}/{year}</h5>
               <p><i>Domaines</i>: Java, GitHub, Python, React, Espagnol</p>

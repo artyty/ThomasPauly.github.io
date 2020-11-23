@@ -36,7 +36,7 @@ const Navigation =props => {
                   props.location.pathname === "/" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link po-AndaleMono" to="/">
+                <Link class="nav-link" to="/">
                   ~/Accueil
                   <span class="sr-only">(current)</span>
                 </Link>
@@ -67,6 +67,9 @@ const Navigation =props => {
                 <Link class="nav-link" to="/Competences">
                   ~/Compétences
                 </Link>
+              </li>
+              <li>
+                <a href="../download/Cv_Thomas8pauly.pdf" download>CV au format pdf</a>
               </li>
             </ul>
           </div>
