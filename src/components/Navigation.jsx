@@ -69,7 +69,7 @@ const Navigation =props => {
                 </Link>
               </li>
               <li>
-                <a href="../download/Cv_Thomas8pauly.pdf" download>CV au format pdf</a>
+                <a href="../download/Cv_Thomas_Pauly.pdf" download>CV au format pdf</a>
               </li>
             </ul>
           </div>
