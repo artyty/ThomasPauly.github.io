@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { Link, withRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
+import DownloadLink from "../download/Cv_Thomas_Pauly.pdf";
 
 const Navigation =props => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -69,7 +70,7 @@ const Navigation =props => {
                 </Link>
               </li>
               <li>
-                <a href="../download/Cv_Thomas_Pauly.pdf" download>CV au format pdf</a>
+                <a href="../download/Cv_Thomas_Pauly.pdf" download ="CV Thomas Pauly">CV au format pdf</a>
               </li>
             </ul>
           </div>
