@@ -33,12 +33,12 @@ function App() {
     {/*Menu*/}
       <Router>
         <Navigation/>
-        <Switch>
+        <HashRouter>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/experiences" exact component={() => <Experiences />} />
           <Route path="/competences" exact component={() => <Competences />} />
           <Route path="/formation" exact component={() => <Formation />} />
-        </Switch>
+        </HashRouter>
         <Footer/>
       </Router>
       <Container>
