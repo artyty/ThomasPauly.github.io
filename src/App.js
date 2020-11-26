@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container} from 'react-floating-action-button';
 // Import router
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route,HashRouter, Switch } from "react-router-dom";
 // Import pages
 import { Navigation, Footer, Home, Competences, Formation, Experiences } from "./components";
 // Import Bootstrap
