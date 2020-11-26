@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container} from 'react-floating-action-button';
 // Import router
-import { BrowserRouter as Router, Route,HashRouter, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Import pages
 import { Navigation, Footer, Home, Competences, Formation, Experiences } from "./components";
 // Import Bootstrap
@@ -33,12 +33,12 @@ function App() {
     {/*Menu*/}
       <Router>
         <Navigation/>
-        <HashRouter>
+        <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/experiences" exact component={() => <Experiences />} />
           <Route path="/competences" exact component={() => <Competences />} />
           <Route path="/formation" exact component={() => <Formation />} />
-        </HashRouter>
+        </Switch>
         <Footer/>
       </Router>
       <Container>
