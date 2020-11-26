@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/artyty.github.io/static/css/main.514acb54.chunk.css",
-    "main.js": "/artyty.github.io/static/js/main.e5b56f5f.chunk.js",
-    "main.js.map": "/artyty.github.io/static/js/main.e5b56f5f.chunk.js.map",
+    "main.js": "/artyty.github.io/static/js/main.e6e2bfa1.chunk.js",
+    "main.js.map": "/artyty.github.io/static/js/main.e6e2bfa1.chunk.js.map",
     "runtime-main.js": "/artyty.github.io/static/js/runtime-main.6f3ce310.js",
     "runtime-main.js.map": "/artyty.github.io/static/js/runtime-main.6f3ce310.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/artyty.github.io/static/css/2.20aa2d7b.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.588b4237.chunk.js",
     "static/css/main.514acb54.chunk.css",
-    "static/js/main.e5b56f5f.chunk.js"
+    "static/js/main.e6e2bfa1.chunk.js"
   ]
 }
