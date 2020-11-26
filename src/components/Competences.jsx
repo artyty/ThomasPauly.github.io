@@ -15,36 +15,34 @@ function Competences() {
           <h3> Technologies</h3>
           <div class="container">
             <div class="row">
-              <div class="div-form w-100 p-3 draw meet container col-sm">
-              <a class="link-formation" href="https://www.talend.com/fr/" target="_blank">
+              <div class="div-comp-l w-100 p-3 col-sm">
                 Talend
-                </a>
               </div>
-              <div class="div-form w-100 p-3 draw meet container col-sm sep">
+              <div class="div-comp-r w-100 p-3 col-sm">
                 QlikView
               </div>
             </div>
             <div class="row">
-              <div class="div-form w-100 p-3 draw meet container col-sm">
+              <div class="div-comp-l w-100 p-3 col-sm">
                 HTML
               </div>
-              <div class="div-form w-100 p-3 draw meet container col-sm sep">
+              <div class="div-comp-r w-100 p-3 col-sm">
                 Joomla
               </div>
             </div>
             <div class="row">
-              <div class="div-form w-100 p-3 draw meet container col-sm">
+              <div class="div-comp-l w-100 p-3 col-sm">
                 Visual Basic for Applications
               </div>
-              <div class="div-form w-100 p-3 draw meet container col-sm sep">
+              <div class="div-comp-r w-100 p-3 col-sm">
                 React
               </div>
             </div>
             <div class="row">
-              <div class="div-form w-100 p-3 draw meet container col-sm">
+              <div class="div-comp-l w-100 p-3 col-sm">
                 Méthodess Agiles
               </div>
-              <div class="div-form w-100 p-3 draw meet container col-sm sep">
+              <div class="div-comp-r w-100 p-3 col-sm">
                 Github
               </div>
             </div>

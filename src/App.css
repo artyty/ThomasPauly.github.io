@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   color : #aaaaaa;
+  font-family: "Consolas";
 }
 
 @viewport {
@@ -45,7 +46,7 @@ hr {
 
 /* Links for formation */
 a.link-formation {
-  color : #e9e9e9;
+  color : #222222;
   text-decoration:none; 
 }
 img.img-formation {
@@ -281,7 +282,7 @@ font-family: Andale Mono,AndaleMono,monospace;
   border-radius:50%;
   width:40px;
   height:40px;
-  background: #2f7437 ;
+  background: #af8505 ;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
@@ -293,7 +294,7 @@ font-family: Andale Mono,AndaleMono,monospace;
 
 .div-form {
   margin-top: 15px;
-  box-shadow: inset 0 0 0 1px #ffffff;
+  box-shadow: inset 0 0 0 1px #1d1d1d;
   color: #aaaaaa;
   position: relative;
   vertical-align: middle;
@@ -312,6 +313,8 @@ font-family: Andale Mono,AndaleMono,monospace;
   border: 1px solid transparent;
   width: 0;
   height: 0;
+  
+  
 }
 .draw::before {
   top: 0;

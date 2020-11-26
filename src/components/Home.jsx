@@ -18,14 +18,14 @@ import Robot from '../img/robotic2.png';
 const theme = {
   botAvatar: <img src="Mail"></img>,
   background: '#1d1d1d',
-  fontFamily: 'Segoe UI',
-  headerBgColor: '#c69606',
+  fontFamily: 'Consolas',
+  headerBgColor: '#af8505',
   headerFontColor: '#fff',
   headerFontSize: '15px',
-  botBubbleColor: '#c69606',
+  botBubbleColor: '#af8505',
   botFontColor: '#fff',
-  userBubbleColor: '#c69606',
-  userFontColor: '#e9e9e9',
+  userBubbleColor: '#af8505',
+  userFontColor: '#af8505',
 };
 
 const steps = [

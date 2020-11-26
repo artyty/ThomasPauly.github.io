@@ -68,11 +68,6 @@ const Navigation =props => {
                   ~/Compétences
                 </Link>
               </li>
-              <li>
-                <a  href="../src/download/Cv_Thomas_Pauly.pdf" download>
-                  CV format PDF
-                </a>
-              </li>
             </ul>
           </div>
       </nav>
