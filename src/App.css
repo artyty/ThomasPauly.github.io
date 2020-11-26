@@ -60,16 +60,19 @@ img.img-formation {
 .div-comp-l{
   margin-right: 5px;
   margin-top: 10px;
-  border : solid 2px
+  border : solid 1px
   
 }
 .div-comp-r{
   margin-left: 5px;
   margin-top: 10px;
-  border : solid 2px
+  border : solid 1px
 
 }
+.sep{
+  margin-left: 5px;
 
+}
 /* Titles*/
 h2.title{
   color: #ffffff;

@@ -22,21 +22,23 @@ function Formation() {
       <div class="container">
         <h2 class=" title featurette-heading text-left " >Formations</h2>
       </div>
-      <a class="link-formation" href="https://about.udemy.com/fr/" target="_blank">
-        <div class="div-form draw meet container text-left ">
-          <div class="row">
-            <div class="col-md-auto-sm">
-              <img src={Udemy} class ="img-formation" />
+      <div>
+          <a class="link-formation" href="https://about.udemy.com/fr/" target="_blank">
+            <div class="div-form draw meet container text-left ">
+              <div class="row">
+                <div class="col-md-auto-sm">
+                  <img src={Udemy} class ="img-formation" />
+                </div>
+                <div class="col-sm">
+                  <h3> Auto Formation</h3>
+                  <h4> Udemy,OpenClassroom </h4>
+                  <h5> 03/2020 - {day}/{year}</h5>
+                  <p><i>Domaines</i>: Java, GitHub, Python, React, Espagnol</p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm">
-              <h3> Auto Formation</h3>
-              <h4> Udemy,OpenClassroom </h4>
-              <h5> 03/2020 - {day}/{year}</h5>
-              <p><i>Domaines</i>: Java, GitHub, Python, React, Espagnol</p>
-            </div>
-          </div>
-        </div>
-      </a>
+          </a>
+      </div>
       <a class="link-formation" href="https://www.tarbes.cci.fr/cel-langues" target="_blank">
         <div class="div-form draw meet draw-border container text-left" >
           <div class="row">
