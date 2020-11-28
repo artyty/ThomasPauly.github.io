@@ -40,7 +40,7 @@ function Competences() {
             </div>
             <div class="row">
               <div class="div-comp-l w-100 p-3 col-sm">
-                Méthodess Agiles
+                Méthodes Agiles
               </div>
               <div class="div-comp-r w-100 p-3 col-sm">
                 Github
@@ -52,10 +52,10 @@ function Competences() {
           <div class=" container text-middle ">
             <div class="row">
               <div class="div-comp-l w-100 p-3 col-sm">
-                Anglais ★★★✩✩
+                Anglais B1
               </div>
               <div class="div-comp-r w-100 p-3 col-sm">
-                Espagnol ★★✩✩✩
+                Espagnol A2
               </div>
             </div>
           </div>

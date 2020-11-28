@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container} from 'react-floating-action-button';
 // Import router
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 // Import pages
-import { Navigation, Footer, Home, Competences, Formation, Experiences } from "./components";
+import { Navigation, Footer, Home, Competences, Formation, Experiences,NotFoundPage } from "./components";
 // Import Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import CSS
@@ -38,6 +38,7 @@ function App() {
           <Route path="/experiences" exact component={() => <Experiences />} />
           <Route path="/competences" exact component={() => <Competences />} />
           <Route path="/formation" exact component={() => <Formation />} />
+          <Route path="*" exact component={() => <NotFoundPage />} />
         </Switch>
         <Footer/>
       </Router>

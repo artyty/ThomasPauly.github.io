@@ -5,3 +5,4 @@ export { default as Home } from "./Home";
 export { default as Competences } from "./Competences";
 export { default as Formation } from "./Formation";
 export { default as Experiences } from "./Experiences";
+export { default as NotFoundPage } from "./NotFoundPage";
